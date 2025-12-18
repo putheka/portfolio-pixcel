@@ -161,12 +161,12 @@ function StartScreen({
         <div className="inline-block pixel-border bg-card p-6">
           <div className="relative">
             <div className="text-4xl md:text-6xl font-bold text-primary pixel-text">CHHON</div>
-            <div className="text-4xl md:text-6xl font-bold text-secondary pixel-text mt-2">PUTHEKA</div>
+            <div className="text-4xl md:text-6xl font-bold text-secondary pixel-text mt-2">PUTHEYKA</div>
           </div>
         </div>
 
         <div className="text-xs md:text-sm text-muted-foreground leading-relaxed max-w-2xl px-4">
-          Junior PHP Backend Developer | Laravel | API Development | TDD
+          PHP Backend Developer | Laravel | API Development | TDD
         </div>
       </div>
 
@@ -214,7 +214,7 @@ function AboutScreen({
             />
           </div>
             <div>
-              <h2 className="text-lg font-bold text-primary">Chhon Putheka</h2>
+              <h2 className="text-lg font-bold text-primary">Chhon Putheyka</h2>
               <p className="text-xs text-muted-foreground">Backend Engineer</p>
             </div>
           </div>
@@ -440,22 +440,22 @@ function ContactScreen({
             <ContactButton
               icon={<Mail className="w-4 h-4" />}
               label="Email"
-              value="putheka@example.com"
-              href="mailto:putheka@example.com"
+              value="chhonputheyka@gmail.com"
+              href="mailto:chhonputheyka@gmail.com"
               playSound={playSound}
             />
             <ContactButton
               icon={<Code2 className="w-4 h-4" />}
               label="LinkedIn"
               value="Connect with me"
-              href="#"
+              href="https://www.linkedin.com/in/chhon-putheka/"
               playSound={playSound}
             />
             <ContactButton
               icon={<Code2 className="w-4 h-4" />}
-              label="GitHub"
-              value="View my code"
-              href="#"
+              label="X"
+              value="Connect me on X"
+              href="https://x.com/ChhonPutheka"
               playSound={playSound}
             />
           </div>
